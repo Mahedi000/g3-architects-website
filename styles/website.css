@@ -116,7 +116,34 @@ nav li{
    
         color: var(--dark-03, #727272);
    }
-
+/* logo section */
+    .fact-container{
+        display: flex;
+        justify-content: space-around;
+       
+        
+    }
+    .fact-container .card{
+        border: 2px solid tomato;
+        border-radius: 5px;
+        text-align: center;
+        padding: 30px 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cart_start{
+        color: var(--dark-02, #424242);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+            }
+            .fact-containe .card-title{
+                font-weight: 600px;
+            }
 
 
    /* Media queari */
