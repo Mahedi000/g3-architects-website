@@ -75,19 +75,11 @@ nav li{
         margin-top: 50px;
         width: 100%;
     }
-   /* Media queari */
-   @media screen and (max-width: 576px){
-    header{
-        padding: 50px;
-    }
-    nav{
-        flex-direction: column
-    }
-   }
+   
    /* main styles */
    main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
    }
    /* teams img style */
    .teams-container{
@@ -120,3 +112,24 @@ nav li{
    .sp3{
             color: red;
    }
+   .team-des{
+   
+        color: var(--dark-03, #727272);
+   }
+
+
+
+   /* Media queari */
+   @media screen and (max-width: 576px){
+    header{
+        padding: 50px;
+    }
+    nav, .teams-container{
+   
+        flex-direction: column
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+   }
+   /* main styles */
